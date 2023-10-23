@@ -12,14 +12,14 @@ After completing this exercise, you should be able to discuss or answer the foll
 let or const nameOfVariable = "value"
 
 - How do you initialize (**assign a value to**) a variable?
-  type the name of the varible then equals then the actual value that you wish to assign
+  type the name of the variable then equals then the actual value that you wish to assign
 
 - What characters are allowed in variable names?
 
 letters, digits or symbols $ and \_
 
 - What does it mean to say that variable names are "case sensitive"?
-  it means that the same varible name with capital vs lower case will reference two separate variables when calling or referencing it later
+  it means that the same variable name with capital vs lower case will reference two separate variables when calling or referencing it later
 
 - What is the purpose of a string?
   strings store text
@@ -36,13 +36,13 @@ letters, digits or symbols $ and \_
 
 - What is the difference between `null` and `undefined`?
 
-null is a non existing object and therfore an object in terms of data type and undefined means that a variable simplt hasnt been defined or assigned a value yet.
+null is a non existing object and therefore an object in terms of data type and undefined means that a variable simply hasn't been defined or assigned a value yet.
 
 - Why is it a good habit to include "labels" when you log values to the browser console?
   so that u know what is actually showing up when u view the console log and suddenly see a bunch of logged values
 
 - Give five examples of JavaScript primitives.
-  numbers, strings, booleans , objects, sybols
+  numbers, strings, booleans , objects, symbols
 
 ## Notes
 

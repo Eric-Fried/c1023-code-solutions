@@ -1,0 +1,44 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  color: #ec5d57;
+  text-align: center;
+}
+
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+input[type='text'],
+input[type='email'] {
+  color: grey;
+  width: 100%;
+}
+
+input[type='submit'] {
+  color: white;
+  background-color: #ec5d57;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+select {
+  width: 100%;
+}
+
+div {
+  padding: 5px;
+}
+
+.right {
+  text-align: right;
+}
+
+.wrapper {
+  max-width: 350px;
+}

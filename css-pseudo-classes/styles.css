@@ -1,0 +1,13 @@
+button {
+  width: ;
+  border: gray;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover {
+  color: pink;
+  background-color: black;
+}

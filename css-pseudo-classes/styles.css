@@ -11,3 +11,12 @@ button:hover {
   color: pink;
   background-color: black;
 }
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #d2d2d2;
+}

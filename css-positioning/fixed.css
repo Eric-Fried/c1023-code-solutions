@@ -5,6 +5,12 @@ html {
 .page-title {
   font-size: 3rem;
   text-align: center;
+}
 
-  /* your code here */
+/* your code here */
+
+h1 {
+  position: fixed;
+  top: 10px;
+  right: 32%;
 }

@@ -1,0 +1,46 @@
+body {
+  background-color: #1996da;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+h1,
+p,
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-third {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.picture {
+  width: 40%;
+}
+
+.image-wrapper {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

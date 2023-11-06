@@ -1,0 +1,14 @@
+console.log('hello, world');
+const h1Elem = document.querySelector('h1');
+console.log(h1Elem);
+console.dir(h1Elem);
+const $idExplaination = document.querySelector('#explanation');
+console.log($idExplaination);
+console.dir($idExplaination);
+const $classHint = document.querySelector('.hint');
+console.log($classHint);
+console.dir($classHint);
+const $allpElements = document.querySelectorAll('p');
+console.log($allpElements);
+const $allClassExample = document.querySelectorAll('.example-link');
+console.log($allClassExample);

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 600px;
+}
+
+.text-container {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.red {
+  color: #f91716;
+  border-bottom: #f91716 solid;
+}
+
+.green {
+  color: #18cd1b;
+  border-bottom: #18cd1b solid;
+}

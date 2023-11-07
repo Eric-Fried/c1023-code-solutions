@@ -1,0 +1,40 @@
+.open-button {
+  height: 30px;
+  width: 100px;
+  background-color: #4a4ae9;
+}
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-button {
+  background-color: #eb5d5d;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.survey {
+  background-color: white;
+  height: 25vh;
+  width: 40vw;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+
+.hidden {
+  display: none;
+}

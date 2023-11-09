@@ -77,7 +77,7 @@ function renderPokemon(pokemon) {
   $image.setAttribute('src', pokemon.imageUrl);
 
   const $pokemonCardText = document.createElement('div');
-  $pokemonCard.setAttribute('class', 'pokemon-card-text');
+  $pokemonCardText.setAttribute('class', 'pokemon-card-text');
 
   const $name = document.createElement('h2');
   $name.textContent = pokemon.name;
@@ -94,12 +94,6 @@ function renderPokemon(pokemon) {
   $pokemonCardText.appendChild($name);
   $pokemonCardText.appendChild($number);
   $pokemonCardText.appendChild($description);
-
-  console.log($columnThirdDiv);
-  console.log($pokemonCard);
-
-  console.log($pokemonCardText);
-  console.log($image);
 
   return $columnThirdDiv;
 }

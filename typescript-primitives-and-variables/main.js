@@ -1,0 +1,15 @@
+var fullName = 'Eric Fried';
+var isCool = true;
+var totalPets = 4;
+var unknown = null;
+var never;
+console.log('fullName:', fullName);
+console.log('isCool:', isCool);
+console.log('totalPets:', totalPets);
+console.log('typeOf fullName:', typeof fullName);
+console.log('typeOf isCool:', typeof isCool);
+console.log('typeOf totalPets:', typeof totalPets);
+console.log('unknown:', unknown);
+console.log('typeOf unknown:', typeof unknown);
+console.log('never:', never);
+console.log('typeOf never:', typeof never);

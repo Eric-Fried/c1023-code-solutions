@@ -1,0 +1,106 @@
+    1  git branch --list
+    2  git switch 
+    3  git switch main
+    4  npm install
+    5  git 
+    6  git switch 
+    7  ls
+    8  ls -a
+    9  cd .git
+   10  ls
+   11  takeown /F <dir/*> /R
+   12  whoami
+   13  ls -al .git
+   14  ls
+   15  git switch unit-tests-jest
+   16  git branch
+   17  git fetch
+   18  git branch --list
+   19  git switch html-links
+   20  git switch main
+   21  git switch css-view-swapping 
+   22  git branch -m javascript-view-swappin
+   23  git branch -javascript-view-swapping
+   24  git branch -m javascript-view-swapping
+   25  git add javascript-view-swapping/
+   26  git status 
+   27  git push origin javascript-view-swapping
+   28  git switch css-transitions
+   29  git switch main 
+   30  git branch css-transitions
+   31  git switch css-transitions 
+   32  git add css-transitions/
+   33  git commit -m "finished exercise and quiz"
+   34  git push origin css-transitions
+   35  git switch main
+   36  git branch command-line-basics
+   37  git switch command-line-basics 
+   38  cd command-line-basics
+   39  cd command-line-basics
+   40  man cat
+   41  cat laziness.txt 
+   42  cat impatience.txt 
+   43  cat hubris.txt 
+   44  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   45  cat three-virtues.txt 
+   46  man ls 
+   47  ls
+   48  ls -a
+   49  ls -f
+   50  ls -F
+   51  man ls 
+   52  ls lfz-staff/
+   53* A
+   54  ls lfz-staff/ -a
+   55  ls lfz-staff/ -F
+   56  man ls
+   57  ls -aF
+   58  ls -aF lfz-staff > lfz-staff/contents.txt
+   59  man pwd
+   60  pwd
+   61  pwd > i-was-here.txt
+   62  ls pwd
+   63  ls
+   64  man ls 
+   65  cat i-was-here.txt 
+   66  man echo
+   67  echo Hello, World!
+   68  echo  'Hello, World!'
+   69  echo Hello, World! > hello.txt
+   70  ls 
+   71  cat hello.txt 
+   72  man touch
+   73  touch tag-your-it.txt
+   74  touch snoot/boop.txt
+   75  ls snoot/
+   76  man mkdir
+   77  mkdir parent
+   78  ls 
+   79  mk dir -p child
+   80  man mkdir
+   81  mkdir -p parent/child/grandchild
+   82  touch parent/child/grandchild/.gitkeep
+   83  ls -a
+   84  ls -aF
+   85  ls -a parent/child/grandchild/
+   86  man mv
+   87  mv pokiemans/ pokemon
+   88  ls 
+   89  man rm
+   90  rm lol.txt 
+   91  ls 
+   92  man rm
+   93  man rm
+   94  man -r kill-me/
+   95  rm -r kill-me/
+   96  ls 
+   97  man cp
+   98  man cp
+   99  man rm
+  100  man cp
+  101  cp and-then.txt no-and-then.txt
+  102  ls 
+  103  cat and-then.txt no-and-then.txt 
+  104  man history
+  105  history
+  106  history > command-history.txt

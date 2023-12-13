@@ -6,5 +6,6 @@ try {
   const contents = await readFile(filePath, { encoding: 'utf8' });
   console.log(contents);
 } catch (err) {
-  console.error(err);
+  console.error('Error reading file', err);
+  process.exit(1);
 }

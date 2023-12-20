@@ -20,3 +20,5 @@ function handleClick(event) {
     $hotButton.className = 'hot-button hot';
   }
 }
+
+// changes

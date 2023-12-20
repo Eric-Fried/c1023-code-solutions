@@ -8,7 +8,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   1995
 
 - Who created TypeScript?
-  brendan eich
+  brendan eich.
 
 - How can you compile TypeScript to JavaScript?
   using the tsc compiler

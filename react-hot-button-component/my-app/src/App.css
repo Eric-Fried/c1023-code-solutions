@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hot-button3 {
+  background-color: #351c75;
+  color: #fff;
+}
+
+.hot-button6 {
+  background-color: #674ea7;
+  color: #fff;
+}
+
+.hot-button9 {
+  background-color: #e06666;
+  color: #fff;
+}
+
+.hot-button12 {
+  background-color: #f6b26b;
+}
+
+.hot-button15 {
+  background-color: #ff0;
+}
+
+.hot-button18 {
+  background-color: #fff;
+}

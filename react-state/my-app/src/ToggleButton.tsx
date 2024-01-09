@@ -14,24 +14,18 @@ export function ToggleButton({ text, color }: Props) {
     setisClicked(!isClicked);
     console.log('after setter', isClicked);
   }
-
+  let bgcolor;
   if (isClicked) {
-    return (
-      <button
-        onClick={handleClick}
-        style={{
-          backgroundColor: color,
-        }}>
-        {text}
-      </button>
-    );
+    bgcolor = color;
+  } else {
+    bgcolor = 'white';
   }
 
   return (
     <button
       onClick={handleClick}
       style={{
-        backgroundColor: 'white',
+        backgroundColor: bgcolor,
       }}>
       {text}
     </button>
